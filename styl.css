@@ -1,0 +1,261 @@
+
+.main{
+    background: linear-gradient(to right , #1020398e , #1020398e),url(./img/banner-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   height: 85vh;
+   color: white;
+}
+
+.hover{
+    display: none;
+}
+
+.main a{
+    color: white;
+}
+.US{
+    color: #fff;
+    transform: rotate(90deg);
+    display: block;
+    margin-top: 24px;
+    position: absolute;
+    padding-top: 94%;
+    top: 77%;
+    left: 11%;
+
+    margin-top: 50%;
+
+    right: 20px;
+}
+
+.icon-4{
+    position: absolute;
+    left: 91%;
+    top: 40%;
+}
+.img-1{
+    position: absolute;
+   z-index: 500px;
+    margin-top: 216px;
+}
+.img-2{
+    position: absolute;
+   margin-left: -15px;
+    margin-top: 216px;
+}
+.img-3{
+    position: absolute;
+    margin-left: 1690px;
+    margin-top: 215px;
+   
+   
+}
+.img-4{
+    position: absolute;
+     margin-top: 217px;
+     margin-left: 75%;
+}
+.img-5{
+    position: absolute;
+    margin-left: 68%;
+    margin-top: -384px;
+}
+.img-6{
+    position: absolute;
+    margin-top: -382px;
+}
+
+
+/* <!-- section----2 --> */
+
+
+
+.box-4{
+    background-color: #102039;
+    height: 30vh;
+    width: 100%;
+}
+.bg-white{
+
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid rgb(5, 183, 238);
+}
+
+.m-1{
+    position: absolute;
+  padding-top: 90px;
+}
+.m-2{
+    position: absolute;
+    right: 0;
+
+}
+
+
+/* ----section----3 */
+
+.smr{
+    height: 50vh;
+    
+}
+
+.shape-29{
+    position: absolute;
+     padding-left: 160px;
+     margin-top: 80px;
+}
+.shape-31{
+    position: absolute;
+    right: 0;
+   padding-top: 100px;
+
+}
+.man{
+   margin-left: 35%;
+   margin-left: 16%;
+   margin-top: 50px;
+   border-radius: 0 50px 0 0;
+ 
+}
+.roof{
+    margin-left: -140px;
+    margin-top: 210px;
+    position: absolute;
+    border: 5px solid white;
+    box-shadow: 0px 4px 25px 0px black;
+}
+
+.hps{
+    padding-top: 80px;
+}
+
+
+              /* -------section------4 */
+
+
+              .main-01{
+                background-image: url(./img/shape-35.png);
+                background-size: cover;
+            
+              }
+
+
+.shape-34{
+  position: absolute;
+  height:478px;
+  right: 0;
+  overflow: hidden;
+}
+.shape-33{
+    left: 0;
+    position: absolute;
+    height:554px;
+}
+
+
+
+
+
+/* <!-- ---------section---4 ------------- --> */
+
+  .sec-4-main{
+    background-image: url(./img/sec--4.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+  }
+  .line{
+   position: absolute;
+       height: 167px;
+       padding-top: 98px;
+       left: 340px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- ------------ MEDIA ------------- --> */
+
+
+
+
+@media screen and (max-width:767px) {
+       
+    .main{
+       width: 100%;
+       height: 85vh;
+     
+    }
+
+    .hover{
+        display: block ;
+      padding-left: 50%;
+    }
+
+
+
+     nav{
+     display: none !important;
+     }
+     .btnn{
+        display: none !important;
+         }
+    .img-1, .img-2, .img-3, .img-4, .img-5, .img-6{
+     display: none !important;
+      }      
+   .US , .icon-4{
+     display: none !important;
+    }
+    .bim{
+    text-align: center;
+    width: 150px;
+    margin-left: 70px;
+    height: 50px;
+}
+   
+.box-4{
+    background-color: #102039;
+    
+    height: 100vh;
+    width: 100%;
+}
+
+
+.smr{
+    height: 70vh;
+    flex-direction: column;
+}
+
+.shape-29{
+   display: none;
+}
+.shape-31{
+   
+    display: none;
+}
+
+.man{
+    
+    margin-left: 16%;
+    margin-top: 50px;
+    border-radius: 0 50px 0 0;
+
+}
+}
+
+
+
+
